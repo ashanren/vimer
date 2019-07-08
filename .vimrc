@@ -16,6 +16,7 @@ set incsearch
 set number          "turn on line numbering
 set wrap            "turn on visual word wrapping
 set linebreak       "only break lines on 'breakat' characters
+set backspace=indent,eol,start
 syntax on           "turn on syntax highlighting
 
 
@@ -29,4 +30,8 @@ call plug#begin('~/.vim/plugged')
   Plug 'pangloss/vim-javascript'
   Plug 'Yggdroot/indentLine'
   Plug 'itchyny/lightline.vim'
+"  Plug 'powerman/vim-plugin-AnsiEsc'
+  Plug 'vim-scripts/AnsiEsc.vim'
+  Plug 'rust-lang/rust.vim'
+  Plug 'fatih/vim-go', {'do': 'GoUpdateBinaries'}
 call plug#end()
