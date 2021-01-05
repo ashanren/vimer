@@ -34,4 +34,5 @@ call plug#begin('~/.vim/plugged')
   Plug 'vim-scripts/AnsiEsc.vim'
   Plug 'rust-lang/rust.vim'
   Plug 'fatih/vim-go', {'do': 'GoUpdateBinaries'}
+  Plug 'ekalinin/Dockerfile.vim'
 call plug#end()
